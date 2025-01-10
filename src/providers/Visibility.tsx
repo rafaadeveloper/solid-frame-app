@@ -1,10 +1,10 @@
-import { Post } from "../hooks/post";
+import { Post } from "@/hooks/post";
 import { children } from "solid-js";
 import clsx from "clsx";
-import { isEnvBrowser } from "../utils/mic";
-import { listen } from "../hooks/listen";
-import { observe } from "../hooks/observe";
-import { useVisibility } from "../stores/useVisibility";
+import { isEnvBrowser } from "@/utils/misc";
+import { listen } from "@/hooks/listen";
+import { observe } from "@/hooks/observe";
+import { useVisibility } from "@/stores/useVisibility";
 
 export const VisibilityProvider = (props: any) => {
   const data = useVisibility();

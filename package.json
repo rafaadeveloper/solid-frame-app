@@ -12,6 +12,7 @@
     "@solid-primitives/reducer": "^0.0.101",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
+    "path": "^0.12.7",
     "postcss": "^8.4.47",
     "solid-js": "^1.9.1",
     "solid-zustand": "^1.8.1",
